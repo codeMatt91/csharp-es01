@@ -16,8 +16,9 @@ namespace MyApp // Note: actual namespace depends on the project name.
             string n2 = Console.ReadLine();
 
             // Parso i numeri
-            int iN1 = Convert.ToInt32(n1);
-            int iN2 = Convert.ToInt32(n2);
+            int iN1 = Int32.Parse(n1);
+            int iN2 = Int32.Parse(n2);
+
 
             Console.WriteLine("Hai inserito: {0}, {1}", iN1, iN2);
 
